@@ -4,9 +4,8 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-// Добавить базовый класс с вынесенными методами
-public class RaiffeisenTest extends BaseTest {
 
+public class RaiffeisenTest extends BaseTest {
 
     @Test
     public void test() {

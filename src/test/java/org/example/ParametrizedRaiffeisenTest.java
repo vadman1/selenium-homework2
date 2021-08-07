@@ -25,7 +25,7 @@ public class ParametrizedRaiffeisenTest extends BaseTest {
         // выбрать пункт меню "Ипотека"
         driver.findElement(By.xpath("//a[@href='/retail/mortgageloans/']")).click();
 
-        // выбрать под-пункт меню "Рефинансирование"
+        // выбрать подпункт меню "Рефинансирование"
         driver.findElement(By.xpath("//a[contains(@href, '/refinansirovanie-kreditov-inyh-bankov/')]")).click();
         // проверка перехода на страницу с рефинансированием
         WebElement title = driver.findElement(By.tagName("h1"));
